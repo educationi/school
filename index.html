@@ -1,1 +1,53 @@
-<h1>hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Button</title>
+    <style>
+      /* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Modern Button Styles */
+.modern-button {
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6200ea; /* Purple color */
+    border: none;
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect */
+.modern-button:hover {
+    background-color: #3700b3; /* Darker purple */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Active Effect */
+.modern-button:active {
+    background-color: #7c4dff; /* Lighter purple */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+}
+    </style>
+</head>
+<body>
+    <button class="modern-button">Click Me</button>
+</body>
+</html>
